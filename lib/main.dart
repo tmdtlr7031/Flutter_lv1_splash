@@ -9,8 +9,17 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Text("hello world!!"),
+      backgroundColor: Colors.orange,
+      body: Column(
+        // 화면 가장 위부터 children값을 표시해주는게 default
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          // 자식 위젯 여러개 넣을 수 있음
+          Image.asset('asset/img/logo.png'),
+          CircularProgressIndicator( // 로딩바
+            color: Colors.white,
+          )
+        ],
       ),
     );
   }
