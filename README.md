@@ -2,15 +2,8 @@
 
 A new Flutter project.
 
-## Getting Started
+----
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### asset 디렉토리
+- asset 디렉토리의 이미지 등 추가 시 바로 Flutter에서 사용 불가 -> `pubspec.yaml` 수정 필요
+  - `flutter:` 하위에 설정 후 상단 바의 `Pub get` 눌러서 적용
